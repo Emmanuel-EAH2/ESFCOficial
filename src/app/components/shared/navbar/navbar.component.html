@@ -1,0 +1,596 @@
+<mat-tab-group #tabRef color="accent">
+   <!-- matRipple
+    [matRippleUnbounded]="unbounded" -->
+    <mat-tab label="Eventos"> 
+<!-- SIDENAV -->
+<mat-sidenav-container>
+   <mat-sidenav opened mode="side" style="width: 140px; text-align: center;">
+         
+         <!-- BOTONES DEL SIDENAV -->
+         <div class="example-button-container">
+            <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon"  matTooltip="Pagina Principal">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+       </div> 
+       
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon"   matTooltip="Me encanta">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon"  matTooltip="Mi Perfil">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+               <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon"  matTooltip="Compartir">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+             </svg>
+         </button>
+       </div>
+
+      <!-- FIN DE LOS BOTONES DEL SIDENAV -->
+      </mat-sidenav> 
+         <mat-sidenav-content>
+
+      <mat-accordion multi="true" displayMode="flat" class="expansion1">  
+           <!---------------------------- EMPIEZAN LOS PANELS ----------------------------------------->
+            <mat-list-item>
+                <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                   <mat-panel-title >
+                      Encuentro General
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 15 de Novimebre del 2020 en el Instituo de los Laicos<br>
+                      ubicado en: Av de los maestros Sur del padro #773 colonia Del valle 2da Seccion
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+               <div class="caja1">
+                  
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>objetivos:</th>
+                      <th style="padding-top: 20px;"> Descripcion del evento:</th>
+                     </tr>
+                     </thead>
+                           <tbody>
+                              <tr>
+                               <th class="th1"> 
+                                    <ol><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                       <ul>Lorem ipsum dolor sit amet consectetur adipisicing eult. Dignissimos.</ul><br>
+                                    </ol>
+                              </th>
+                               <th>
+                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo maiores nemo deserunt ratione quam! Minus, obcaecati. Nemo eius doloremque unde repellendus quae molestiae, beatae, fugit iure ullam totam sint voluptatibus distinctio aliquam! Esse dolorem ex molestiae fugit, quas at quaerat harum, odit eius magnam voluptas perspiciatis sint, ducimus optio! Exercitationem dicta hic ullam ut veniam id harum! Fuga saepe quam omnis doloribus quaerat pariatur illo enim assumenda? Itaque veritatis eos alias cum quae quidem voluptatem officiis nam inventore porro cumque veniam, eum sequi facilis ea quasi fugiat quos? Dolorum est quos officia laborum enim, praesentium eos consequatur quia totam.
+                               </th>
+                             </tr>
+                          </tbody>
+                  </table>
+               </div>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+             </mat-expansion-panel>
+            </mat-list-item>
+            
+            <mat-list-item><mat-expansion-panel>
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Torneo Deportivo
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 26 de Mayo de 2021
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+             </mat-expansion-panel></mat-list-item>
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel></mat-list-item>
+ 
+            
+            <mat-list-item><mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Adoracion Nocturna a la Virgen de Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 12 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel></mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+            
+            <mat-list-item>  <mat-expansion-panel >
+                <mat-expansion-panel-header>
+                   <mat-panel-title>
+                      Pereginacion a Guadalupe
+                   </mat-panel-title>
+                   <mat-panel-description>
+                      Será el dia: 9 de Diciembre de 2020
+                   </mat-panel-description>
+                </mat-expansion-panel-header>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis ipsum repellat voluptates tempora provident saepe rerum delectus mollitia! Ipsa nihil placeat, molestias natus tempora odio voluptatum aut id officiis excepturi dolorum quaerat, tenetur necessitatibus, impedit saepe ut unde porro delectus labore inventore culpa sed veritatis? Inventore incidunt quaerat beatae ad?</p>
+                <mat-action-row>
+                   <button mat-raised-button>saber mas</button>
+                </mat-action-row>
+        </mat-expansion-panel>        
+    </mat-list-item>
+ 
+
+    <!----------------------------- TERMINA LOS PANELS --------------------------------------->
+    </mat-accordion>
+   </mat-sidenav-content>
+</mat-sidenav-container>
+</mat-tab>
+
+<mat-tab label="Historia">
+      <mat-sidenav-container>
+         <mat-sidenav opened mode="side" style="width: 140px; text-align: center; margin-right: 40px;">
+            <div class="example-button-container">
+               <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon" matIcon="home">
+                  <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                     <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                   </svg>
+               </button>
+          </div> 
+          
+            <div class="example-button-container" style="margin-top: 20px;">
+            <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+                </svg>
+            </button>
+          </div>
+   
+            <div class="example-button-container" style="margin-top: 20px;">
+            <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                  <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+            </button>
+          </div>
+   
+            <div class="example-button-container" style="margin-top: 20px;">
+            <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+                </svg>
+            </button>
+          </div>
+   
+         </mat-sidenav>
+         <mat-sidenav-content>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque consequatur dignissimos atque omnis amet, doloribus mollitia autem officia rem labore pariatur, nobis sint. Vitae nam praesentium saepe deserunt perspiciatis quos corporis nisi sunt? Atque impedit, vero, itaque consequatur iure tenetur enim id rerum fugiat quaerat, molestias inventore vel sed! Autem nobis nesciunt esse quasi velit et, debitis aliquam ea, harum deserunt ut sapiente. Rerum nisi, id magnam quae nobis quo cum sunt atque nam fuga tempore dolorum saepe tenetur, est eum explicabo quia, architecto sint iure illum pariatur ab beatae reprehenderit ullam? Laborum reprehenderit beatae minima odio assumenda dolorem corporis sapiente ducimus ullam nam delectus necessitatibus numquam nobis placeat eligendi, repellat quam aperiam corrupti soluta! Quidem consectetur, asperiores consequuntur repellendus veritatis autem adipisci cumque dignissimos iste eius, tempora, fugit odio aliquid obcaecati reprehenderit assumenda recusandae fugiat voluptate aliquam dolorum. Facere ducimus minima possimus adipisci ab error sit aperiam! Explicabo aliquid sit perferendis odit dolorum possimus numquam hic corporis nesciunt, obcaecati quo qui quod quae perspiciatis sint illo maxime nobis quidem rem? In quo magni odit repellat unde, voluptatem perspiciatis expedita assumenda et. Optio, ex corporis! Animi non illum, dignissimos est omnis quibusdam praesentium modi eos nisi saepe laboriosam dolore doloribus officiis quas quae iusto laborum? Quis dolorum expedita eligendi deserunt ea saepe eveniet fugit id illo asperiores doloribus quos vel harum, nam quae sunt corporis repellat quo recusandae impedit! Laboriosam ab vero earum veritatis nam cumque rem repellendus rerum corporis incidunt, perferendis, blanditiis soluta optio possimus dolore similique? Exercitationem ipsum, ab architecto ex ratione error laudantium, natus fuga tempora quod atque totam quam consequatur, harum fugiat unde deleniti deserunt sunt? Sapiente ducimus incidunt quae autem ullam dolorum laudantium rem harum sequi quidem voluptates maxime minus iusto animi accusantium ipsa perferendis est dolores earum dolorem, molestias commodi. Atque rem beatae quod, dolorum, porro nihil repudiandae facere magni, molestiae doloribus quo placeat assumenda numquam delectus perspiciatis omnis est? Ipsum doloremque dolorum voluptatem error in obcaecati, quo assumenda molestiae? Sint, accusantium? Reiciendis minima veritatis distinctio fuga voluptas accusamus iure pariatur, debitis dolore omnis asperiores architecto saepe dolor, porro corporis, suscipit deserunt! Possimus provident ex inventore recusandae illo quibusdam sapiente velit repellat molestias repellendus, delectus in veritatis laborum praesentium voluptas, blanditiis nihil quisquam officia esse tenetur iste? Doloribus modi vitae odit tempore quam, enim voluptas inventore molestiae eaque. Adipisci similique nobis nostrum aliquid, sit repellendus, eaque iusto fugit minus culpa error, quam excepturi ut impedit illum vel. Dolore quas quisquam, ut qui esse sequi odio totam ullam suscipit laborum eligendi. Unde reiciendis adipisci dolorum saepe veniam! Nulla accusamus voluptates assumenda obcaecati, nostrum eius voluptatem aperiam in earum ea molestias ipsa error repellat quis ex maiores! Ea distinctio quia quas, officiis optio a quod harum consequatur deserunt quo fuga nesciunt maiores praesentium odio in fugiat asperiores dignissimos animi veniam quis. Suscipit molestiae necessitatibus nihil, porro minima non aspernatur sint eligendi neque eveniet error qui incidunt molestias excepturi corporis quidem ipsam mollitia dolorum alias doloribus reprehenderit quis? Accusantium, ab distinctio, esse rerum tempore autem perferendis temporibus beatae dolorem ut laborum harum quod velit expedita. Porro nesciunt, odio labore repellat nam cupiditate aut excepturi. A doloribus eaque quo repellendus, iste nostrum ex impedit obcaecati tempore. Perspiciatis magni laudantium obcaecati maiores, pariatur temporibus quo tempore! Ipsam obcaecati fugit ab, porro culpa doloribus et, voluptate sit laboriosam quod consectetur asperiores. Dolorum, sed quod! At, omnis eos. Corrupti a odit sapiente hic autem. Tenetur quos voluptatum nemo nulla debitis obcaecati quia unde sequi natus. Eius quidem necessitatibus obcaecati eaque fugiat dolores harum aliquam earum consequatur tempore vitae rerum cupiditate quis fugit quasi sit, aut suscipit! Deleniti molestiae sed corrupti nostrum voluptatibus aut, dignissimos itaque odio cupidebitis?</p>
+         </mat-sidenav-content>
+  </mat-sidenav-container>   
+</mat-tab>
+
+<mat-tab label="Equipo Coordinador">
+      <mat-sidenav-container>
+      <mat-sidenav opened mode="side" style="width: 140px; text-align: center; margin-right: 40px;">
+         <div class="example-button-container">
+            <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon" matIcon="home">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+       </div> 
+       
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+               <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+             </svg>
+         </button>
+       </div>
+
+      </mat-sidenav>
+      <mat-sidenav-content>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque consequatur dignissimos atque omnis amet, doloribus mollitia autem officia rem labore pariatur, nobis sint. Vitae nam praesentium saepe deserunt perspiciatis quos corporis nisi sunt? Atque impedit, vero, itaque consequatur iure tenetur enim id rerum fugiat quaerat, molestias inventore vel sed! Autem nobis nesciunt esse quasi velit et, debitis aliquam ea, harum deserunt ut sapiente. Rerum nisi, id magnam quae nobis quo cum sunt atque nam fuga tempore dolorum saepe tenetur, est eum explicabo quia, architecto sint iure illum pariatur ab beatae reprehenderit ullam? Laborum reprehenderit beatae minima odio assumenda dolorem corporis sapiente ducimus ullam nam delectus necessitatibus numquam nobis placeat eligendi, repellat quam aperiam corrupti soluta! Quidem consectetur, asperiores consequuntur repellendus veritatis autem adipisci cumque dignissimos iste eius, tempora, fugit odio aliquid obcaecati reprehenderit assumenda recusandae fugiat voluptate aliquam dolorum. Facere ducimus minima possimus adipisci ab error sit aperiam! Explicabo aliquid sit perferendis odit dolorum possimus numquam hic corporis nesciunt, obcaecati quo qui quod quae perspiciatis sint illo maxime nobis quidem rem? In quo magni odit repellat unde, voluptatem perspiciatis expedita assumenda et. Optio, ex corporis! Animi non illum, dignissimos est omnis quibusdam praesentium modi eos nisi saepe laboriosam dolore doloribus officiis quas quae iusto laborum? Quis dolorum expedita eligendi deserunt ea saepe eveniet fugit id illo asperiores doloribus quos vel harum, nam quae sunt corporis repellat quo recusandae impedit! Laboriosam ab vero earum veritatis nam cumque rem repellendus rerum corporis incidunt, perferendis, blanditiis soluta optio possimus dolore similique? Exercitationem ipsum, ab architecto ex ratione error laudantium, natus fuga tempora quod atque totam quam consequatur, harum fugiat unde deleniti deserunt sunt? Sapiente ducimus incidunt quae autem ullam dolorum laudantium rem harum sequi quidem voluptates maxime minus iusto animi accusantium ipsa perferendis est dolores earum dolorem, molestias commodi. Atque rem beatae quod, dolorum, porro nihil repudiandae facere magni, molestiae doloribus quo placeat assumenda numquam delectus perspiciatis omnis est? Ipsum doloremque dolorum voluptatem error in obcaecati, quo assumenda molestiae? Sint, accusantium? Reiciendis minima veritatis distinctio fuga voluptas accusamus iure pariatur, debitis dolore omnis asperiores architecto saepe dolor, porro corporis, suscipit deserunt! Possimus provident ex inventore recusandae illo quibusdam sapiente velit repellat molestias repellendus, delectus in veritatis laborum praesentium voluptas, blanditiis nihil quisquam officia esse tenetur iste? Doloribus modi vitae odit tempore quam, enim voluptas inventore molestiae eaque. Adipisci similique nobis nostrum aliquid, sit repellendus, eaque iusto fugit minus culpa error, quam excepturi ut impedit illum vel. Dolore quas quisquam, ut qui esse sequi odio totam ullam suscipit laborum eligendi. Unde reiciendis adipisci dolorum saepe veniam! Nulla accusamus voluptates assumenda obcaecati, nostrum eius voluptatem aperiam in earum ea molestias ipsa error repellat quis ex maiores! Ea distinctio quia quas, officiis optio a quod harum consequatur deserunt quo fuga nesciunt maiores praesentium odio in fugiat asperiores dignissimos animi veniam quis. Suscipit molestiae necessitatibus nihil, porro minima non aspernatur sint eligendi neque eveniet error qui incidunt molestias excepturi corporis quidem ipsam mollitia dolorum alias doloribus reprehenderit quis? Accusantium, ab distinctio, esse rerum tempore autem perferendis temporibus beatae dolorem ut laborum harum quod velit expedita. Porro nesciunt, odio labore repellat nam cupiditate aut excepturi. A doloribus eaque quo repellendus, iste nostrum ex impedit obcaecati tempore. Perspiciatis magni laudantium obcaecati maiores, pariatur temporibus quo tempore! Ipsam obcaecati fugit ab, porro culpa doloribus et, voluptate sit laboriosam quod consectetur asperiores. Dolorum, sed quod! At, omnis eos. Corrupti a odit sapiente hic autem. Tenetur quos voluptatum nemo nulla debitis obcaecati quia unde sequi natus. Eius quidem necessitatibus obcaecati eaque fugiat dolores harum aliquam earum consequatur tempore vitae rerum cupiditate quis fugit quasi sit, aut suscipit! Deleniti molestiae sed corrupti nostrum voluptatibus aut, dignissimos itaque odio cupidebitis?</p>
+      </mat-sidenav-content>
+</mat-sidenav-container>   
+</mat-tab> 
+           
+<mat-tab label="Equipo Representantes">
+   <mat-sidenav-container>
+      <mat-sidenav opened mode="side" style="width: 140px; text-align: center; margin-right: 40px;">
+         <div class="example-button-container">
+            <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon" matIcon="home">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+       </div> 
+       
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+               <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+             </svg>
+         </button>
+       </div>
+
+      </mat-sidenav>
+      <mat-sidenav-content>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque consequatur dignissimos atque omnis amet, doloribus mollitia autem officia rem labore pariatur, nobis sint. Vitae nam praesentium saepe deserunt perspiciatis quos corporis nisi sunt? Atque impedit, vero, itaque consequatur iure tenetur enim id rerum fugiat quaerat, molestias inventore vel sed! Autem nobis nesciunt esse quasi velit et, debitis aliquam ea, harum deserunt ut sapiente. Rerum nisi, id magnam quae nobis quo cum sunt atque nam fuga tempore dolorum saepe tenetur, est eum explicabo quia, architecto sint iure illum pariatur ab beatae reprehenderit ullam? Laborum reprehenderit beatae minima odio assumenda dolorem corporis sapiente ducimus ullam nam delectus necessitatibus numquam nobis placeat eligendi, repellat quam aperiam corrupti soluta! Quidem consectetur, asperiores consequuntur repellendus veritatis autem adipisci cumque dignissimos iste eius, tempora, fugit odio aliquid obcaecati reprehenderit assumenda recusandae fugiat voluptate aliquam dolorum. Facere ducimus minima possimus adipisci ab error sit aperiam! Explicabo aliquid sit perferendis odit dolorum possimus numquam hic corporis nesciunt, obcaecati quo qui quod quae perspiciatis sint illo maxime nobis quidem rem? In quo magni odit repellat unde, voluptatem perspiciatis expedita assumenda et. Optio, ex corporis! Animi non illum, dignissimos est omnis quibusdam praesentium modi eos nisi saepe laboriosam dolore doloribus officiis quas quae iusto laborum? Quis dolorum expedita eligendi deserunt ea saepe eveniet fugit id illo asperiores doloribus quos vel harum, nam quae sunt corporis repellat quo recusandae impedit! Laboriosam ab vero earum veritatis nam cumque rem repellendus rerum corporis incidunt, perferendis, blanditiis soluta optio possimus dolore similique? Exercitationem ipsum, ab architecto ex ratione error laudantium, natus fuga tempora quod atque totam quam consequatur, harum fugiat unde deleniti deserunt sunt? Sapiente ducimus incidunt quae autem ullam dolorum laudantium rem harum sequi quidem voluptates maxime minus iusto animi accusantium ipsa perferendis est dolores earum dolorem, molestias commodi. Atque rem beatae quod, dolorum, porro nihil repudiandae facere magni, molestiae doloribus quo placeat assumenda numquam delectus perspiciatis omnis est? Ipsum doloremque dolorum voluptatem error in obcaecati, quo assumenda molestiae? Sint, accusantium? Reiciendis minima veritatis distinctio fuga voluptas accusamus iure pariatur, debitis dolore omnis asperiores architecto saepe dolor, porro corporis, suscipit deserunt! Possimus provident ex inventore recusandae illo quibusdam sapiente velit repellat molestias repellendus, delectus in veritatis laborum praesentium voluptas, blanditiis nihil quisquam officia esse tenetur iste? Doloribus modi vitae odit tempore quam, enim voluptas inventore molestiae eaque. Adipisci similique nobis nostrum aliquid, sit repellendus, eaque iusto fugit minus culpa error, quam excepturi ut impedit illum vel. Dolore quas quisquam, ut qui esse sequi odio totam ullam suscipit laborum eligendi. Unde reiciendis adipisci dolorum saepe veniam! Nulla accusamus voluptates assumenda obcaecati, nostrum eius voluptatem aperiam in earum ea molestias ipsa error repellat quis ex maiores! Ea distinctio quia quas, officiis optio a quod harum consequatur deserunt quo fuga nesciunt maiores praesentium odio in fugiat asperiores dignissimos animi veniam quis. Suscipit molestiae necessitatibus nihil, porro minima non aspernatur sint eligendi neque eveniet error qui incidunt molestias excepturi corporis quidem ipsam mollitia dolorum alias doloribus reprehenderit quis? Accusantium, ab distinctio, esse rerum tempore autem perferendis temporibus beatae dolorem ut laborum harum quod velit expedita. Porro nesciunt, odio labore repellat nam cupiditate aut excepturi. A doloribus eaque quo repellendus, iste nostrum ex impedit obcaecati tempore. Perspiciatis magni laudantium obcaecati maiores, pariatur temporibus quo tempore! Ipsam obcaecati fugit ab, porro culpa doloribus et, voluptate sit laboriosam quod consectetur asperiores. Dolorum, sed quod! At, omnis eos. Corrupti a odit sapiente hic autem. Tenetur quos voluptatum nemo nulla debitis obcaecati quia unde sequi natus. Eius quidem necessitatibus obcaecati eaque fugiat dolores harum aliquam earum consequatur tempore vitae rerum cupiditate quis fugit quasi sit, aut suscipit! Deleniti molestiae sed corrupti nostrum voluptatibus aut, dignissimos itaque odio cupidebitis?</p>
+      </mat-sidenav-content>
+</mat-sidenav-container>   
+</mat-tab> 
+        
+<mat-tab label="Equipo Cuarto año de Mision">
+   <mat-sidenav-container>
+      <mat-sidenav opened mode="side" style="width: 140px; text-align: center; margin-right: 40px;">
+         <div class="example-button-container">
+            <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon" matIcon="home">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+       </div> 
+       
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+               <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+             </svg>
+         </button>
+       </div>
+
+      </mat-sidenav>
+      <mat-sidenav-content>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque consequatur dignissimos atque omnis amet, doloribus mollitia autem officia rem labore pariatur, nobis sint. Vitae nam praesentium saepe deserunt perspiciatis quos corporis nisi sunt? Atque impedit, vero, itaque consequatur iure tenetur enim id rerum fugiat quaerat, molestias inventore vel sed! Autem nobis nesciunt esse quasi velit et, debitis aliquam ea, harum deserunt ut sapiente. Rerum nisi, id magnam quae nobis quo cum sunt atque nam fuga tempore dolorum saepe tenetur, est eum explicabo quia, architecto sint iure illum pariatur ab beatae reprehenderit ullam? Laborum reprehenderit beatae minima odio assumenda dolorem corporis sapiente ducimus ullam nam delectus necessitatibus numquam nobis placeat eligendi, repellat quam aperiam corrupti soluta! Quidem consectetur, asperiores consequuntur repellendus veritatis autem adipisci cumque dignissimos iste eius, tempora, fugit odio aliquid obcaecati reprehenderit assumenda recusandae fugiat voluptate aliquam dolorum. Facere ducimus minima possimus adipisci ab error sit aperiam! Explicabo aliquid sit perferendis odit dolorum possimus numquam hic corporis nesciunt, obcaecati quo qui quod quae perspiciatis sint illo maxime nobis quidem rem? In quo magni odit repellat unde, voluptatem perspiciatis expedita assumenda et. Optio, ex corporis! Animi non illum, dignissimos est omnis quibusdam praesentium modi eos nisi saepe laboriosam dolore doloribus officiis quas quae iusto laborum? Quis dolorum expedita eligendi deserunt ea saepe eveniet fugit id illo asperiores doloribus quos vel harum, nam quae sunt corporis repellat quo recusandae impedit! Laboriosam ab vero earum veritatis nam cumque rem repellendus rerum corporis incidunt, perferendis, blanditiis soluta optio possimus dolore similique? Exercitationem ipsum, ab architecto ex ratione error laudantium, natus fuga tempora quod atque totam quam consequatur, harum fugiat unde deleniti deserunt sunt? Sapiente ducimus incidunt quae autem ullam dolorum laudantium rem harum sequi quidem voluptates maxime minus iusto animi accusantium ipsa perferendis est dolores earum dolorem, molestias commodi. Atque rem beatae quod, dolorum, porro nihil repudiandae facere magni, molestiae doloribus quo placeat assumenda numquam delectus perspiciatis omnis est? Ipsum doloremque dolorum voluptatem error in obcaecati, quo assumenda molestiae? Sint, accusantium? Reiciendis minima veritatis distinctio fuga voluptas accusamus iure pariatur, debitis dolore omnis asperiores architecto saepe dolor, porro corporis, suscipit deserunt! Possimus provident ex inventore recusandae illo quibusdam sapiente velit repellat molestias repellendus, delectus in veritatis laborum praesentium voluptas, blanditiis nihil quisquam officia esse tenetur iste? Doloribus modi vitae odit tempore quam, enim voluptas inventore molestiae eaque. Adipisci similique nobis nostrum aliquid, sit repellendus, eaque iusto fugit minus culpa error, quam excepturi ut impedit illum vel. Dolore quas quisquam, ut qui esse sequi odio totam ullam suscipit laborum eligendi. Unde reiciendis adipisci dolorum saepe veniam! Nulla accusamus voluptates assumenda obcaecati, nostrum eius voluptatem aperiam in earum ea molestias ipsa error repellat quis ex maiores! Ea distinctio quia quas, officiis optio a quod harum consequatur deserunt quo fuga nesciunt maiores praesentium odio in fugiat asperiores dignissimos animi veniam quis. Suscipit molestiae necessitatibus nihil, porro minima non aspernatur sint eligendi neque eveniet error qui incidunt molestias excepturi corporis quidem ipsam mollitia dolorum alias doloribus reprehenderit quis? Accusantium, ab distinctio, esse rerum tempore autem perferendis temporibus beatae dolorem ut laborum harum quod velit expedita. Porro nesciunt, odio labore repellat nam cupiditate aut excepturi. A doloribus eaque quo repellendus, iste nostrum ex impedit obcaecati tempore. Perspiciatis magni laudantium obcaecati maiores, pariatur temporibus quo tempore! Ipsam obcaecati fugit ab, porro culpa doloribus et, voluptate sit laboriosam quod consectetur asperiores. Dolorum, sed quod! At, omnis eos. Corrupti a odit sapiente hic autem. Tenetur quos voluptatum nemo nulla debitis obcaecati quia unde sequi natus. Eius quidem necessitatibus obcaecati eaque fugiat dolores harum aliquam earum consequatur tempore vitae rerum cupiditate quis fugit quasi sit, aut suscipit! Deleniti molestiae sed corrupti nostrum voluptatibus aut, dignissimos itaque odio cupidebitis?</p>
+      </mat-sidenav-content>
+</mat-sidenav-container>   
+</mat-tab> 
+        
+<mat-tab label="Equipo Central">
+   <mat-sidenav-container>
+      <mat-sidenav opened mode="side" style="width: 140px; text-align: center; margin-right: 40px;">
+         <div class="example-button-container">
+            <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon" matIcon="home">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+       </div> 
+       
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+               <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+             </svg>
+         </button>
+       </div>
+
+      </mat-sidenav>
+      <mat-sidenav-content>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque consequatur dignissimos atque omnis amet, doloribus mollitia autem officia rem labore pariatur, nobis sint. Vitae nam praesentium saepe deserunt perspiciatis quos corporis nisi sunt? Atque impedit, vero, itaque consequatur iure tenetur enim id rerum fugiat quaerat, molestias inventore vel sed! Autem nobis nesciunt esse quasi velit et, debitis aliquam ea, harum deserunt ut sapiente. Rerum nisi, id magnam quae nobis quo cum sunt atque nam fuga tempore dolorum saepe tenetur, est eum explicabo quia, architecto sint iure illum pariatur ab beatae reprehenderit ullam? Laborum reprehenderit beatae minima odio assumenda dolorem corporis sapiente ducimus ullam nam delectus necessitatibus numquam nobis placeat eligendi, repellat quam aperiam corrupti soluta! Quidem consectetur, asperiores consequuntur repellendus veritatis autem adipisci cumque dignissimos iste eius, tempora, fugit odio aliquid obcaecati reprehenderit assumenda recusandae fugiat voluptate aliquam dolorum. Facere ducimus minima possimus adipisci ab error sit aperiam! Explicabo aliquid sit perferendis odit dolorum possimus numquam hic corporis nesciunt, obcaecati quo qui quod quae perspiciatis sint illo maxime nobis quidem rem? In quo magni odit repellat unde, voluptatem perspiciatis expedita assumenda et. Optio, ex corporis! Animi non illum, dignissimos est omnis quibusdam praesentium modi eos nisi saepe laboriosam dolore doloribus officiis quas quae iusto laborum? Quis dolorum expedita eligendi deserunt ea saepe eveniet fugit id illo asperiores doloribus quos vel harum, nam quae sunt corporis repellat quo recusandae impedit! Laboriosam ab vero earum veritatis nam cumque rem repellendus rerum corporis incidunt, perferendis, blanditiis soluta optio possimus dolore similique? Exercitationem ipsum, ab architecto ex ratione error laudantium, natus fuga tempora quod atque totam quam consequatur, harum fugiat unde deleniti deserunt sunt? Sapiente ducimus incidunt quae autem ullam dolorum laudantium rem harum sequi quidem voluptates maxime minus iusto animi accusantium ipsa perferendis est dolores earum dolorem, molestias commodi. Atque rem beatae quod, dolorum, porro nihil repudiandae facere magni, molestiae doloribus quo placeat assumenda numquam delectus perspiciatis omnis est? Ipsum doloremque dolorum voluptatem error in obcaecati, quo assumenda molestiae? Sint, accusantium? Reiciendis minima veritatis distinctio fuga voluptas accusamus iure pariatur, debitis dolore omnis asperiores architecto saepe dolor, porro corporis, suscipit deserunt! Possimus provident ex inventore recusandae illo quibusdam sapiente velit repellat molestias repellendus, delectus in veritatis laborum praesentium voluptas, blanditiis nihil quisquam officia esse tenetur iste? Doloribus modi vitae odit tempore quam, enim voluptas inventore molestiae eaque. Adipisci similique nobis nostrum aliquid, sit repellendus, eaque iusto fugit minus culpa error, quam excepturi ut impedit illum vel. Dolore quas quisquam, ut qui esse sequi odio totam ullam suscipit laborum eligendi. Unde reiciendis adipisci dolorum saepe veniam! Nulla accusamus voluptates assumenda obcaecati, nostrum eius voluptatem aperiam in earum ea molestias ipsa error repellat quis ex maiores! Ea distinctio quia quas, officiis optio a quod harum consequatur deserunt quo fuga nesciunt maiores praesentium odio in fugiat asperiores dignissimos animi veniam quis. Suscipit molestiae necessitatibus nihil, porro minima non aspernatur sint eligendi neque eveniet error qui incidunt molestias excepturi corporis quidem ipsam mollitia dolorum alias doloribus reprehenderit quis? Accusantium, ab distinctio, esse rerum tempore autem perferendis temporibus beatae dolorem ut laborum harum quod velit expedita. Porro nesciunt, odio labore repellat nam cupiditate aut excepturi. A doloribus eaque quo repellendus, iste nostrum ex impedit obcaecati tempore. Perspiciatis magni laudantium obcaecati maiores, pariatur temporibus quo tempore! Ipsam obcaecati fugit ab, porro culpa doloribus et, voluptate sit laboriosam quod consectetur asperiores. Dolorum, sed quod! At, omnis eos. Corrupti a odit sapiente hic autem. Tenetur quos voluptatum nemo nulla debitis obcaecati quia unde sequi natus. Eius quidem necessitatibus obcaecati eaque fugiat dolores harum aliquam earum consequatur tempore vitae rerum cupiditate quis fugit quasi sit, aut suscipit! Deleniti molestiae sed corrupti nostrum voluptatibus aut, dignissimos itaque odio cupidebitis?</p>
+      </mat-sidenav-content>
+</mat-sidenav-container>   
+</mat-tab> 
+        
+<mat-tab label="Equipo Porfesores">
+   <mat-sidenav-container>
+      <mat-sidenav opened mode="side" style="width: 140px; text-align: center; margin-right: 40px;">
+         <div class="example-button-container">
+            <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon" matIcon="home">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+       </div> 
+       
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+               <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+             </svg>
+         </button>
+       </div>
+
+      </mat-sidenav>
+      <mat-sidenav-content>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque consequatur dignissimos atque omnis amet, doloribus mollitia autem officia rem labore pariatur, nobis sint. Vitae nam praesentium saepe deserunt perspiciatis quos corporis nisi sunt? Atque impedit, vero, itaque consequatur iure tenetur enim id rerum fugiat quaerat, molestias inventore vel sed! Autem nobis nesciunt esse quasi velit et, debitis aliquam ea, harum deserunt ut sapiente. Rerum nisi, id magnam quae nobis quo cum sunt atque nam fuga tempore dolorum saepe tenetur, est eum explicabo quia, architecto sint iure illum pariatur ab beatae reprehenderit ullam? Laborum reprehenderit beatae minima odio assumenda dolorem corporis sapiente ducimus ullam nam delectus necessitatibus numquam nobis placeat eligendi, repellat quam aperiam corrupti soluta! Quidem consectetur, asperiores consequuntur repellendus veritatis autem adipisci cumque dignissimos iste eius, tempora, fugit odio aliquid obcaecati reprehenderit assumenda recusandae fugiat voluptate aliquam dolorum. Facere ducimus minima possimus adipisci ab error sit aperiam! Explicabo aliquid sit perferendis odit dolorum possimus numquam hic corporis nesciunt, obcaecati quo qui quod quae perspiciatis sint illo maxime nobis quidem rem? In quo magni odit repellat unde, voluptatem perspiciatis expedita assumenda et. Optio, ex corporis! Animi non illum, dignissimos est omnis quibusdam praesentium modi eos nisi saepe laboriosam dolore doloribus officiis quas quae iusto laborum? Quis dolorum expedita eligendi deserunt ea saepe eveniet fugit id illo asperiores doloribus quos vel harum, nam quae sunt corporis repellat quo recusandae impedit! Laboriosam ab vero earum veritatis nam cumque rem repellendus rerum corporis incidunt, perferendis, blanditiis soluta optio possimus dolore similique? Exercitationem ipsum, ab architecto ex ratione error laudantium, natus fuga tempora quod atque totam quam consequatur, harum fugiat unde deleniti deserunt sunt? Sapiente ducimus incidunt quae autem ullam dolorum laudantium rem harum sequi quidem voluptates maxime minus iusto animi accusantium ipsa perferendis est dolores earum dolorem, molestias commodi. Atque rem beatae quod, dolorum, porro nihil repudiandae facere magni, molestiae doloribus quo placeat assumenda numquam delectus perspiciatis omnis est? Ipsum doloremque dolorum voluptatem error in obcaecati, quo assumenda molestiae? Sint, accusantium? Reiciendis minima veritatis distinctio fuga voluptas accusamus iure pariatur, debitis dolore omnis asperiores architecto saepe dolor, porro corporis, suscipit deserunt! Possimus provident ex inventore recusandae illo quibusdam sapiente velit repellat molestias repellendus, delectus in veritatis laborum praesentium voluptas, blanditiis nihil quisquam officia esse tenetur iste? Doloribus modi vitae odit tempore quam, enim voluptas inventore molestiae eaque. Adipisci similique nobis nostrum aliquid, sit repellendus, eaque iusto fugit minus culpa error, quam excepturi ut impedit illum vel. Dolore quas quisquam, ut qui esse sequi odio totam ullam suscipit laborum eligendi. Unde reiciendis adipisci dolorum saepe veniam! Nulla accusamus voluptates assumenda obcaecati, nostrum eius voluptatem aperiam in earum ea molestias ipsa error repellat quis ex maiores! Ea distinctio quia quas, officiis optio a quod harum consequatur deserunt quo fuga nesciunt maiores praesentium odio in fugiat asperiores dignissimos animi veniam quis. Suscipit molestiae necessitatibus nihil, porro minima non aspernatur sint eligendi neque eveniet error qui incidunt molestias excepturi corporis quidem ipsam mollitia dolorum alias doloribus reprehenderit quis? Accusantium, ab distinctio, esse rerum tempore autem perferendis temporibus beatae dolorem ut laborum harum quod velit expedita. Porro nesciunt, odio labore repellat nam cupiditate aut excepturi. A doloribus eaque quo repellendus, iste nostrum ex impedit obcaecati tempore. Perspiciatis magni laudantium obcaecati maiores, pariatur temporibus quo tempore! Ipsam obcaecati fugit ab, porro culpa doloribus et, voluptate sit laboriosam quod consectetur asperiores. Dolorum, sed quod! At, omnis eos. Corrupti a odit sapiente hic autem. Tenetur quos voluptatum nemo nulla debitis obcaecati quia unde sequi natus. Eius quidem necessitatibus obcaecati eaque fugiat dolores harum aliquam earum consequatur tempore vitae rerum cupiditate quis fugit quasi sit, aut suscipit! Deleniti molestiae sed corrupti nostrum voluptatibus aut, dignissimos itaque odio cupidebitis?</p>
+      </mat-sidenav-content>
+</mat-sidenav-container>   
+</mat-tab> 
+            
+<mat-tab label="Equipo Padres de Familia">
+   <mat-sidenav-container>
+      <mat-sidenav opened mode="side" style="width: 140px; text-align: center; margin-right: 40px;">
+         <div class="example-button-container">
+            <button mat-fab style="width: 60px; text-align: center; margin-top: 20px; background-color: rgba(50, 53, 50, 0.925);" aria-label="Example icon button with a home icon" matIcon="home">
+               <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+                  <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                </svg>
+            </button>
+       </div> 
+       
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #93f; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab  style="background-color: #2ff; width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+               <path fill-rule="evenodd" d="M2 15v-1c0-1 1-4 6-4s6 3 6 4v1H2zm6-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+             </svg>
+         </button>
+       </div>
+
+         <div class="example-button-container" style="margin-top: 20px;">
+         <button mat-fab color="warn" style="width: 60px; text-align: center;" aria-label="Example icon button with a home icon">
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-share-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd" d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/>
+             </svg>
+         </button>
+       </div>
+
+      </mat-sidenav>
+      <mat-sidenav-content>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque consequatur dignissimos atque omnis amet, doloribus mollitia autem officia rem labore pariatur, nobis sint. Vitae nam praesentium saepe deserunt perspiciatis quos corporis nisi sunt? Atque impedit, vero, itaque consequatur iure tenetur enim id rerum fugiat quaerat, molestias inventore vel sed! Autem nobis nesciunt esse quasi velit et, debitis aliquam ea, harum deserunt ut sapiente. Rerum nisi, id magnam quae nobis quo cum sunt atque nam fuga tempore dolorum saepe tenetur, est eum explicabo quia, architecto sint iure illum pariatur ab beatae reprehenderit ullam? Laborum reprehenderit beatae minima odio assumenda dolorem corporis sapiente ducimus ullam nam delectus necessitatibus numquam nobis placeat eligendi, repellat quam aperiam corrupti soluta! Quidem consectetur, asperiores consequuntur repellendus veritatis autem adipisci cumque dignissimos iste eius, tempora, fugit odio aliquid obcaecati reprehenderit assumenda recusandae fugiat voluptate aliquam dolorum. Facere ducimus minima possimus adipisci ab error sit aperiam! Explicabo aliquid sit perferendis odit dolorum possimus numquam hic corporis nesciunt, obcaecati quo qui quod quae perspiciatis sint illo maxime nobis quidem rem? In quo magni odit repellat unde, voluptatem perspiciatis expedita assumenda et. Optio, ex corporis! Animi non illum, dignissimos est omnis quibusdam praesentium modi eos nisi saepe laboriosam dolore doloribus officiis quas quae iusto laborum? Quis dolorum expedita eligendi deserunt ea saepe eveniet fugit id illo asperiores doloribus quos vel harum, nam quae sunt corporis repellat quo recusandae impedit! Laboriosam ab vero earum veritatis nam cumque rem repellendus rerum corporis incidunt, perferendis, blanditiis soluta optio possimus dolore similique? Exercitationem ipsum, ab architecto ex ratione error laudantium, natus fuga tempora quod atque totam quam consequatur, harum fugiat unde deleniti deserunt sunt? Sapiente ducimus incidunt quae autem ullam dolorum laudantium rem harum sequi quidem voluptates maxime minus iusto animi accusantium ipsa perferendis est dolores earum dolorem, molestias commodi. Atque rem beatae quod, dolorum, porro nihil repudiandae facere magni, molestiae doloribus quo placeat assumenda numquam delectus perspiciatis omnis est? Ipsum doloremque dolorum voluptatem error in obcaecati, quo assumenda molestiae? Sint, accusantium? Reiciendis minima veritatis distinctio fuga voluptas accusamus iure pariatur, debitis dolore omnis asperiores architecto saepe dolor, porro corporis, suscipit deserunt! Possimus provident ex inventore recusandae illo quibusdam sapiente velit repellat molestias repellendus, delectus in veritatis laborum praesentium voluptas, blanditiis nihil quisquam officia esse tenetur iste? Doloribus modi vitae odit tempore quam, enim voluptas inventore molestiae eaque. Adipisci similique nobis nostrum aliquid, sit repellendus, eaque iusto fugit minus culpa error, quam excepturi ut impedit illum vel. Dolore quas quisquam, ut qui esse sequi odio totam ullam suscipit laborum eligendi. Unde reiciendis adipisci dolorum saepe veniam! Nulla accusamus voluptates assumenda obcaecati, nostrum eius voluptatem aperiam in earum ea molestias ipsa error repellat quis ex maiores! Ea distinctio quia quas, officiis optio a quod harum consequatur deserunt quo fuga nesciunt maiores praesentium odio in fugiat asperiores dignissimos animi veniam quis. Suscipit molestiae necessitatibus nihil, porro minima non aspernatur sint eligendi neque eveniet error qui incidunt molestias excepturi corporis quidem ipsam mollitia dolorum alias doloribus reprehenderit quis? Accusantium, ab distinctio, esse rerum tempore autem perferendis temporibus beatae dolorem ut laborum harum quod velit expedita. Porro nesciunt, odio labore repellat nam cupiditate aut excepturi. A doloribus eaque quo repellendus, iste nostrum ex impedit obcaecati tempore. Perspiciatis magni laudantium obcaecati maiores, pariatur temporibus quo tempore! Ipsam obcaecati fugit ab, porro culpa doloribus et, voluptate sit laboriosam quod consectetur asperiores. Dolorum, sed quod! At, omnis eos. Corrupti a odit sapiente hic autem. Tenetur quos voluptatum nemo nulla debitis obcaecati quia unde sequi natus. Eius quidem necessitatibus obcaecati eaque fugiat dolores harum aliquam earum consequatur tempore vitae rerum cupiditate quis fugit quasi sit, aut suscipit! Deleniti molestiae sed corrupti nostrum voluptatibus aut, dignissimos itaque odio cupidebitis?</p>
+      </mat-sidenav-content>
+</mat-sidenav-container>   
+</mat-tab>      
+    
+</mat-tab-group>
+ 

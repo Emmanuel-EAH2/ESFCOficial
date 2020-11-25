@@ -1,0 +1,61 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+@keyframes arcoiris{
+    0%{border: 1px solid rgb(255, 0, 149);}
+    25%{border: 1px solid rgb(255, 45, 45);}
+    50%{border: 1px solid #e0f;}
+    75%{border: 1px solid rgb(0, 200, 220);}
+    100%{border: 1px solid rgb(21, 255, 50);}
+}
+
+
+.expansion1{
+    font-family: sans-serif;
+}
+mat-list-item{
+    text-align: center;
+}
+
+mat-expansion-panel{
+    animation-name: arcoiris;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    text-align: center;
+    padding: 6px;
+    height: max-content;
+}
+
+
+button:focus{
+    border: hidden;
+    border-radius: hidden;
+    text-decoration: none;
+}
+.caja1{
+border-radius: 30px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-top: 8px;
+}
+.th1{
+    width: 56%;
+    position: relative;
+    margin-right: 8px;
+}
+
+mat-panel-title{
+    font-size: 1.5em;
+    padding: 10px 10px 10px 0px;
+} 
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(49, 62, 240);
+}
